@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, Github, Linkedin, Mail } from 'lucide-react';
+import headshotImg from '/headshot.png';
 
 const container = {
   hidden: {},
@@ -109,7 +110,7 @@ export default function Hero() {
           <motion.div variants={item} className="relative mx-auto md:mx-0">
             <div className="relative h-60 w-60 overflow-hidden rounded-md border border-edge bg-ide-tool shadow-2xl md:h-72 md:w-72">
               <img
-                src="/headshot.png"
+                src={headshotImg}
                 alt="Stephen Stardellis"
                 className="h-full w-full object-cover"
                 loading="eager"
