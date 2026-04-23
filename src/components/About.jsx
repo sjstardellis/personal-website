@@ -39,7 +39,7 @@ export default function About() {
             <p className="text-ink">Worcester Polytechnic Institute</p>
             <p>B.S. Computer Science · Minor Data Science</p>
             <p>Dean's List · GPA 3.8 / 4.0</p>
-            <p>Graduated March 2026</p>
+            <p>Graduated May 2026</p>
           </div>
         </div>
 

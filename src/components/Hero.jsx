@@ -22,9 +22,6 @@ export default function Hero() {
           className="grid items-center gap-16 md:grid-cols-[minmax(0,1fr)_auto]"
         >
           <div className="max-w-3xl">
-            <motion.p variants={item} className="eyebrow">
-              Portfolio · v1.0.0
-            </motion.p>
 
             <motion.h1
               variants={item}
