@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-ide-bg;
+  }
+
+  body {
+    @apply text-ink-muted font-sans antialiased;
+    font-feature-settings: 'ss01', 'kern', 'cv11';
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::selection {
+    @apply bg-ide-select text-ink;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-ide-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3b3e43;
+    border: 3px solid #1e1f22;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5a5d63;
+  }
+  ::-webkit-scrollbar-corner {
+    @apply bg-ide-bg;
+  }
+}
+
+@layer components {
+  .section {
+    @apply mx-auto w-full max-w-5xl px-6 py-20 md:py-24;
+  }
+
+  .card {
+    @apply rounded-md border border-edge bg-ide-tool transition;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-md border border-accent bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-soft;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-md border border-edge bg-ide-tool px-4 py-2 text-sm text-ink-muted transition hover:border-edge-bright hover:bg-ide-hover hover:text-ink;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded border border-edge bg-ide-gutter px-2 py-0.5 font-mono text-[11px] text-ink-muted;
+  }
+
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.15em] text-ink-subtle;
+  }
+
+  .rule {
+    @apply my-6 h-px w-12 bg-accent;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hidden::-webkit-scrollbar { display: none; }
+  .scrollbar-hidden { scrollbar-width: none; }
+}
