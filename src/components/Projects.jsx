@@ -16,7 +16,7 @@ const projects = [
     title: 'Consensus — Daily Web Game',
     category: 'Full-stack · Team of 5',
     description:
-      'NYT-style daily game where players rank options and compare against global averages. Hit 150+ DAU at peak among WPI students. Designed a MongoDB aggregation schema for per-puzzle response rollups and built an automated daily archival + scheduling system.',
+      'NYT-style daily game where players rank options and compare against global averages. Hit 150+ daily active users at peak among WPI students. Designed a MongoDB aggregation schema for per-puzzle response rollups and built an automated daily archival + scheduling system.',
     tags: ['Next.js', 'MongoDB', 'Tailwind', 'Framer Motion', 'Vercel'],
     github: null,
     demo: null,
@@ -120,7 +120,7 @@ export default function Projects() {
         </div>
         <p className="text-ink-muted md:col-span-2">
           A cross-section of coursework, team projects, and independent work at
-          WPI — full-stack, systems, security, and ML.
+          WPI, including full-stack, systems, and ML projects.
         </p>
       </div>
 

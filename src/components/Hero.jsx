@@ -118,9 +118,6 @@ export default function Hero() {
                 loading="eager"
               />
             </div>
-            <p className="mt-4 text-center font-mono text-xs text-ink-subtle">
-              @author
-            </p>
           </motion.div>
         </motion.div>
       </div>

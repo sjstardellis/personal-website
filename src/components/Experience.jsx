@@ -16,7 +16,7 @@ const roles = [
   },
   {
     company: 'Amphenol Corporation',
-    title: 'IT Intern',
+    title: 'Information Technology Intern',
     location: 'Wallingford, CT',
     dates: 'June 2024 — August 2024',
     bullets: [
@@ -28,7 +28,7 @@ const roles = [
   },
   {
     company: 'Amity Regional High School',
-    title: 'Information Technology Intern',
+    title: 'Student Information Technology Intern',
     location: 'Woodbridge, CT',
     dates: 'October 2021 — August 2022',
     bullets: [

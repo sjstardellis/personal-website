@@ -41,16 +41,16 @@ export default function Contact() {
         >
           <p className="eyebrow">05 — contact</p>
           <h2 className="mt-4 text-4xl font-semibold tracking-tight text-ink md:text-5xl">
-            Let's <span className="text-brand-orange">talk</span>.
+            Let's <span className="text-brand-orange">connect</span>.
           </h2>
           <div className="rule" />
           <p className="mt-6 text-lg leading-relaxed text-ink-muted">
-            Open to full-time roles in{' '}
-            <span className="text-ink">software engineering</span>,{' '}
-            <span className="text-ink">data analysis</span>, and{' '}
-            <span className="text-ink">data engineering</span> — plus
-            interesting collaborations. Happiest when the problem is messy and
-            the feedback loop is fast.
+            Open to{' '}
+            <span className="text-ink">software engineering</span>{' '}
+            and
+            <span className="text-ink"> data science </span> {' '}
+            related roles.
+            Always open to expanding my skill sets, lets connect!
           </p>
         </motion.div>
 

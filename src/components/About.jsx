@@ -45,7 +45,7 @@ export default function About() {
 
         <div className="space-y-5 text-ink-muted md:col-span-3">
           <p className="text-lg leading-relaxed">
-            I'm a software engineer who enjoys working across the stack — from
+            I'm a software engineer who enjoys working across the stack, from
             PostgreSQL schemas and REST APIs up through the React components
             that render them. My work at WPI and MathWorks has been in Agile
             Scrum teams, where I've shipped features end-to-end, owned backend
@@ -56,8 +56,8 @@ export default function About() {
             crowd simulator in C++ for my Major Qualifying Project, written
             multi-threaded systems code in C with POSIX threads, and trained
             regression and neural-net models from scratch in NumPy. I like
-            problems that force me to reason about what's actually happening
-            underneath the abstraction.
+            to understand problems in depth behind all
+            the abstraction.
           </p>
 
           <div className="space-y-5 border-t border-edge pt-6">
